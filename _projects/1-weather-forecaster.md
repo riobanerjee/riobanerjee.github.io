@@ -1,23 +1,30 @@
 ---
 title: "Weather Forecaster 🌤️"
-excerpt: "ML-powered weather forecasting with real-time data processing using PySpark and interactive visualization"
+layout: single
+classes: wide
 header:
-  image: /assets/images/projects/weather-forecaster-cover.jpg
-  teaser: /assets/images/projects/weather-forecaster-thumb.jpg
+  overlay_image: /assets/images/projects/weather-forecaster-cover.jpg
+  overlay_filter: 0.5
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  actions:
+    - label: "Live Demo"
+      url: "https://your-app-url.com"
+    - label: "GitHub"
+      url: "https://github.com/your-repo"
 gallery:
-  - url: /assets/images/projects/weather-dashboard.jpg
-    image_path: /assets/images/projects/weather-dashboard.jpg
-    alt: "Weather dashboard"
-  - url: /assets/images/projects/weather-map.jpg
-    image_path: /assets/images/projects/weather-map.jpg
-    alt: "Air pollution map"
-tags:
-  - Machine Learning
-  - PySpark
-  - Streamlit
-  - GCP
-  - API
-date: 2024-04-01
+  - url: /assets/images/projects/weather-1.jpg
+    image_path: /assets/images/projects/weather-1.jpg
+    alt: "Dashboard view"
+  - url: /assets/images/projects/weather-2.jpg
+    image_path: /assets/images/projects/weather-2.jpg
+    alt: "Map visualization"
+sidebar:
+  - title: "Technologies"
+    text: "Python, PySpark, Streamlit, GCP"
+  - title: "Role"
+    text: "Full-stack Development"
+  - title: "Period"
+    text: "Jan 2024 - Present"
 ---
 
 A machine learning-powered weather forecasting application that fetches real-time weather data, processes it using PySpark, trains a prediction model, and displays the results on an interactive dashboard.
