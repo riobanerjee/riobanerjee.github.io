@@ -16,7 +16,9 @@ author_profile: false
     </p>
     <div class="profile-buttons">
       <a href="/projects/" class="btn btn--primary">Projects</a>
-      <a href="/about/" class="btn btn--inverse">About</a>
+      <a href="/research/" class="btn btn--inverse">Research</a>
+      <a href="/about/" class="btn btn--primary">About</a>
+      <a href="/misc/" class="btn btn--inverse">Misc</a>
     </div>
   </div>
 </div>
