@@ -7,3 +7,22 @@
     once: true
   });
 </script>
+
+<!-- Email obfuscation script -->
+<script type="text/javascript">
+  function decodeEmail(encodedEmail) {
+    return encodedEmail.replace(/[a-zA-Z]/g, function(c) {
+      return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+    });
+  }
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    const elements = document.getElementsByClassName('encoded-email');
+    for (let i = 0; i < elements.length; i++) {
+      const encoded = elements[i].getAttribute('data-encoded');
+      const decoded = decodeEmail(encoded);
+      elements[i].setAttribute('href', 'mailto:' + decoded);
+      // Do not change the text content - keep whatever text was originally in the link
+    }
+  });
+</script>

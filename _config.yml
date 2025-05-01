@@ -58,19 +58,19 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      related: true
+      share: false
+      related: false
 
 # Site Author
 author:
-  name: "Your Name"
+  name: "Agnibha Banerjee"
   avatar: "/assets/images/profile/avatar.jpg"
-  bio: "Data Scientist & ML Engineer"
-  location: "Your Location"
+  bio: " "
+  location: "United Kingdom"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your.email@example.com"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:your.email@example.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/riobanerjee"
@@ -89,6 +89,7 @@ exclude:
   - Gemfile.lock
   - vendor
   - _templates/
+  - cv
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

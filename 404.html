@@ -1,25 +1,81 @@
 ---
 permalink: /404.html
-layout: page
+layout: single
+author_profile: false
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
+<div style="text-align: center; padding: 4em 0;">
+  <h1 style="font-size: 6em; margin-bottom: 0;">404</h1>
+  <p style="font-size: 1.2em; color: #666;">Page not found</p>
+  <p>The page you're looking for doesn't exist or has been moved.</p>
+  <a href="/" class="btn btn--primary">Go Home</a>
+</div>
+
+<script>
+document.addEventListener('mousemove', function(e) {
+  const eyes = document.querySelectorAll('.eye');
+  eyes.forEach(function(eye) {
+    const x = eye.getBoundingClientRect().left + (eye.clientWidth / 2);
+    const y = eye.getBoundingClientRect().top + (eye.clientHeight / 2);
+    const rad = Math.atan2(e.pageX - x, e.pageY - y);
+    const rot = (rad * (180 / Math.PI) * -1) + 270;
+    eye.style.transform = `rotate(${rot}deg)`;
+  });
+});
+</script>
+
+<style>
+.eyes-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.eye {
+  width: 80px;
+  height: 80px;
+  background: white;
+  border-radius: 50%;
+  border: 3px solid #333;
+  position: relative;
+  overflow: hidden;
+}
+
+.pupil {
+  width: 30px;
+  height: 30px;
+  background: #333;
+  border-radius: 50%;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+@media (max-width: 768px) {
+  .eyes-container {
+    gap: 10px;
   }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
+  
+  .eye {
+    width: 60px;
+    height: 60px;
   }
+  
+  .pupil {
+    width: 25px;
+    height: 25px;
+    top: 17.5px;
+    left: 17.5px;
+  }
+}
 </style>
 
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<div class="eyes-container">
+  <div class="eye">
+    <div class="pupil"></div>
+  </div>
+  <div class="eye">
+    <div class="pupil"></div>
+  </div>
 </div>

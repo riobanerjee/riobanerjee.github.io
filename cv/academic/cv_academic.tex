@@ -1,0 +1,46 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+\usepackage[scale=0.85]{geometry}
+\usepackage{multicol}
+
+\name{Your}{Name}
+\title{Curriculum Vitae}
+\address{Department of Computer Science}{University Name}{City, Country}
+\phone[mobile]{+1~(234)~567~890}
+\email{your.email@university.edu}
+\homepage{yourusername.github.io}
+\social[github]{yourusername}
+\social[linkedin]{yourusername}
+
+\begin{document}
+\makecvtitle
+
+\section{Education}
+\cventry{2018--2020}{M.S. in Computer Science}{University Name}{City}{}{Specialization in Machine Learning}
+\cventry{2014--2018}{B.S. in Computer Science}{University Name}{City}{}{GPA: 3.9/4.0}
+
+\section{Research Interests}
+\cvitem{}{Machine Learning, Natural Language Processing, Computer Vision}
+
+\section{Publications}
+\input{sections/publications}
+
+\section{Teaching Experience}
+\cventry{2020--Present}{Teaching Assistant}{University Name}{}{}{
+  \begin{itemize}
+    \item CS101: Introduction to Computer Science
+    \item CS301: Machine Learning
+  \end{itemize}
+}
+
+\section{Awards and Honors}
+\cvitem{2020}{Best Paper Award, Conference Name}
+\cvitem{2019}{Graduate Research Fellowship}
+
+\section{Technical Skills}
+\cvitem{Languages}{Python, C++, Java, JavaScript}
+\cvitem{ML/AI}{TensorFlow, PyTorch, scikit-learn}
+\cvitem{Tools}{Git, Docker, AWS, GCP}
+
+\end{document}

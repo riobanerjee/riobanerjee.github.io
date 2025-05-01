@@ -1,43 +1,53 @@
 ---
-title: "Project Title Here"
-excerpt: "Brief one-line description of the project"
-header:
-  image: /assets/images/projects/project-cover.jpg
-  teaser: /assets/images/projects/project-thumb.jpg
-tags:
-  - Machine Learning
-  - Python
-  - Cloud
-date: 2024-04-25
+title: "Project Title"
+layout: single
+classes: wide
+share: false
+related: false
+read_time: true
+show_date: true                      # Show post date
+
+sidebar:
+  - title: "Technologies"
+    text: "Tech 1, Tech 2, Tech 3"
+  - title: "Role"
+    text: "Your Role"
+  - title: "Period"
+    text: "Month Year - Present"
+gallery:
+  - url: /assets/images/projects/project-screenshot1.jpg
+    image_path: /assets/images/projects/project-screenshot1.jpg
+    alt: "Screenshot 1 description"
+  - url: /assets/images/projects/project-screenshot2.jpg
+    image_path: /assets/images/projects/project-screenshot2.jpg
+    alt: "Screenshot 2 description"
 ---
 
-Brief introduction paragraph about what the project does and why it's important.
+A brief description of your project. Explain what it does, why you built it, and what problem it solves. Keep this to 2-3 sentences for a cleaner look.
 
-[View Live App](https://your-app-url.com){: .btn .btn--primary}
-[View on GitHub](https://github.com/yourusername/repo){: .btn .btn--primary}
+[View Live Demo](https://your-project-url.com){: .btn .btn--primary}
+[View on GitHub](https://github.com/yourusername/project-repo){: .btn .btn--primary}
 
 ## Features
 
 - Key feature 1
 - Key feature 2
 - Key feature 3
+- Key feature 4
+- Key feature 5
+- Key feature 6
 
 ## Technology Stack
 
-- **Backend**: Python, Flask
-- **Frontend**: React, Streamlit
-- **ML**: TensorFlow, scikit-learn
-- **Cloud**: GCP, AWS
-- **Database**: PostgreSQL
+- **Backend**: Language, Framework
+- **Frontend**: UI Framework/Library
+- **Data**: Database, ORM
+- **ML/AI**: Libraries, Models
+- **Cloud**: Platform, Services
+- **Tools**: CI/CD, Testing
 
-## Implementation Details
+## Implementation
 
-Describe the technical implementation, architecture, challenges faced, and solutions developed.
+A brief paragraph about how you implemented the project. What was the architecture? What were the key technical challenges? How did you solve them? This section is optional - remove if not needed.
 
-## Results
-
-Quantifiable results and impact of the project.
-
-## Screenshots
-
-{% include gallery caption="Project screenshots and demos" %}
+{% include gallery caption="Project Screenshots" %}

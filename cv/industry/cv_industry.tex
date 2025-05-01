@@ -1,0 +1,58 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+\usepackage[scale=0.85]{geometry}
+
+\name{Your}{Name}
+\title{Data Scientist \& ML Engineer}
+\address{City, Country}{}
+\phone[mobile]{+1~(234)~567~890}
+\email{your.email@example.com}
+\homepage{yourusername.github.io}
+\social[github]{yourusername}
+\social[linkedin]{yourusername}
+
+\begin{document}
+\makecvtitle
+
+\section{Professional Summary}
+Data scientist with 5+ years of experience in building scalable ML systems. Expertise in deep learning, NLP, and big data processing.
+
+\section{Work Experience}
+\cventry{2022--Present}{Senior Data Scientist}{Tech Company}{City}{}{
+  \begin{itemize}
+    \item Led development of ML models improving revenue by 15\%
+    \item Built scalable data pipelines processing 1TB+ daily
+    \item Mentored team of 5 junior data scientists
+  \end{itemize}
+}
+
+\cventry{2020--2022}{Data Scientist}{Another Company}{City}{}{
+  \begin{itemize}
+    \item Developed NLP models for document classification
+    \item Reduced processing time by 40\% through optimization
+  \end{itemize}
+}
+
+\section{Key Projects}
+\cventry{}{Weather Prediction System}{}{}{}{
+  Built ML-powered weather forecasting system using PySpark and deep learning.
+  \begin{itemize}
+    \item Technologies: Python, PySpark, TensorFlow, GCP
+    \item Impact: 90\% prediction accuracy, deployed to production
+  \end{itemize}
+}
+
+\section{Technical Skills}
+\cvitem{Languages}{Python, SQL, JavaScript}
+\cvitem{ML/AI}{TensorFlow, PyTorch, scikit-learn}
+\cvitem{Big Data}{PySpark, Hadoop, Kafka}
+\cvitem{Cloud}{GCP, AWS, Docker}
+
+\section{Education}
+\cventry{2018--2020}{M.S. in Computer Science}{University Name}{}{}{Specialization in Machine Learning}
+
+\section{Selected Publications}
+\input{sections/publications_selected}
+
+\end{document}

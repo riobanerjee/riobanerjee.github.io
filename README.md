@@ -1,34 +1,36 @@
-# My Portfolio
+# Minimal Portfolio
 
-Personal portfolio website built with Jekyll and Minimal Mistakes theme.
+A clean, minimalist portfolio site built with [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/).
 
-## Local Development
+## Quick Start
 
-1. Install dependencies:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/riobanerjee/riobanerjee.github.io.git
+   cd riobanerjee.github.io
+   ```
+
+2. **Install dependencies**
    ```bash
    bundle install
    ```
 
-2. Run locally:
+3. **Run locally**
    ```bash
    bundle exec jekyll serve
    ```
 
-3. Visit http://localhost:4000
+4. **Visit** `http://localhost:4000`
 
-## Deployment
+## Adding Projects
 
-The site is automatically deployed to GitHub Pages via GitHub Actions when pushing to the main branch.
-
-## Adding New Projects
-
-1. Create a new markdown file in `_projects/`
-2. Add project images to `assets/images/projects/`
-3. Follow the template structure
-4. Commit and push
+1. Create a new file in `_projects/` folder
+2. Use the project template structure
+3. Add images to `assets/images/projects/`
 
 ## Customization
 
 - Edit `_config.yml` for site settings
-- Modify `_data/navigation.yml` for menu items
-- Add custom styles to `assets/css/main.scss`
+- Modify `assets/css/main.scss` for custom styles
+- Update `_data/navigation.yml` for menu items
+
