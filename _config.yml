@@ -78,6 +78,12 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/agnibha-banerjee-astro"
 
+# Analytics
+analytics:
+  provider: "google-gtag"  # For GA4
+  google:
+    tracking_id: "G-K0QJ09YYD5"  # Replace with your tracking ID
+
 # Reading Files
 include:
   - _pages
