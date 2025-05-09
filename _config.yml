@@ -65,7 +65,7 @@ defaults:
 author:
   name: "Agnibha Banerjee"
   avatar: "/assets/images/profile/avatar.jpg"
-  bio: "Astronomer, Data Scientist, Nerd, he/him"
+  bio: ""
   location: "United Kingdom"
   links:
     # - label: "Email"
