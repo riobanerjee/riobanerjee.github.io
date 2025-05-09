@@ -21,8 +21,8 @@
 title: Agnibha Banerjee
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Astronomer and Data Scientist. This is my personal blog where I share
-  my projects in data science, astronomy, and machine learning.
+  Exoplanet Astronomer, PhD candidate and Data Scientist. This is my personal website where I share
+  my projects in astronomy, machine learning, and everything in between.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://riobanerjee.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -65,7 +65,7 @@ defaults:
 author:
   name: "Agnibha Banerjee"
   avatar: "/assets/images/profile/avatar.jpg"
-  bio: " "
+  bio: "Astronomer, Data Scientist, Nerd, he/him"
   location: "United Kingdom"
   links:
     # - label: "Email"
@@ -77,6 +77,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/agnibha-banerjee-astro"
+    - label: "ORCiD"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-9124-6537"
 
 # Analytics
 analytics:
