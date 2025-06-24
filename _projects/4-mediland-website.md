@@ -1,5 +1,5 @@
 ---
-title: "Mediland Diagnostic Centre Website 🌐"
+title: "Diagnostic Centre Website 🌐"
 layout: single
 classes: wide
 share: false

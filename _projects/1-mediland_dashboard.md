@@ -1,5 +1,5 @@
 ---
-title: "Mediland Sales Dashboard 📊"
+title: "Sales Dashboard 📊"
 layout: single
 classes: wide
 share: false
@@ -32,6 +32,7 @@ An interactive sales dashboard for Mediland Diagnostic Centre, built using Plotl
 
 - Interactive charts and graphs for sales analysis
 - Real-time filtering and data exploration
+- Containerised using Docker
 - Key performance indicators (KPIs) at a glance
 - Secure, web-based access for stakeholders
 

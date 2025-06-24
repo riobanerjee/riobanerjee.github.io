@@ -8,9 +8,6 @@ read_time: true
 show_date: true
 
 gallery:
-  - url: /assets/images/projects/stock-pipeline-1.png
-    image_path: /assets/images/projects/stock-pipeline-1.png
-    alt: "Dashboard Overview"
 sidebar:
   - title: "Technologies"
     text: "GCP, BigQuery, Cloud Functions, Looker Studio"

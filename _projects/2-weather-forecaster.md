@@ -18,7 +18,7 @@ sidebar:
     text: "Apr 2025"
 ---
 
-A simple weather dashboard and forecasting application that fetches real-time weather data, processes it into a manageable form, trains a prediction model, and displays the results on an interactive dashboard.
+A simple weather dashboard that fetches real-time weather data, processes it into a manageable form, trains a prediction model, and displays the results on an interactive dashboard.
 
 [View Live App](https://nimbus-predict-645776801901.europe-west2.run.app){: .btn .btn--primary}
 [View on GitHub](https://github.com/riobanerjee/nimbus-predict){: .btn .btn--primary}
@@ -27,7 +27,6 @@ A simple weather dashboard and forecasting application that fetches real-time we
 
 - Real-time weather data collection from OpenWeatherMap API
 - Data processing pipeline using PySpark
-- Machine learning model for weather prediction
 - Containerized using Docker
 - Interactive Streamlit dashboard
 - Air pollution data visualization on maps
@@ -43,4 +42,4 @@ A simple weather dashboard and forecasting application that fetches real-time we
 - **CI/CD**: GitHub Actions
 - **APIs**: OpenWeatherMap
 
-{% include gallery caption="Weather Forecaster Application Screenshot" %}
+{% include gallery caption="Weather Dashboard Application Screenshot" %}
