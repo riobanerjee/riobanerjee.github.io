@@ -11,14 +11,11 @@ gallery:
   - url: /assets/images/projects/stock-pipeline-1.png
     image_path: /assets/images/projects/stock-pipeline-1.png
     alt: "Dashboard Overview"
-  - url: /assets/images/projects/stock-pipeline-2.png
-    image_path: /assets/images/projects/stock-pipeline-2.png
-    alt: "Technical Analysis"
 sidebar:
   - title: "Technologies"
     text: "GCP, BigQuery, Cloud Functions, Looker Studio"
   - title: "When"
-    text: "2024"
+    text: "May 2025"
 ---
 
 A lightweight, serverless GCP pipeline that automatically fetches, analyzes, and visualizes Indian stock market data with technical indicators and anomaly detection.

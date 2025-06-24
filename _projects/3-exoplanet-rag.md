@@ -8,17 +8,14 @@ read_time: true
 show_date: true
 
 gallery:
-  - url: /assets/images/projects/exoplanet-rag-1.png
-    image_path: /assets/images/projects/exoplanet-rag-1.png
+  - url: /assets/images/projects/3-exoplanet_rag.png
+    image_path: /assets/images/projects/3-exoplanet_rag.png
     alt: "RAG Interface"
-  - url: /assets/images/projects/exoplanet-rag-2.png
-    image_path: /assets/images/projects/exoplanet-rag-2.png
-    alt: "Query Results"
 sidebar:
   - title: "Technologies"
     text: "Python, LangChain, Ollama, ChromaDB"
   - title: "When"
-    text: "2024"
+    text: "May 2025"
 ---
 
 A Retrieval Augmented Generation (RAG) system for querying exoplanet research papers from ArXiv. This framework demonstrates how RAG can be applied to scientific literature, enabling natural language queries about exoplanet research.
