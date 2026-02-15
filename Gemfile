@@ -1,38 +1,39 @@
 source "https://rubygems.org"
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-# gem "jekyll", "~> 4.4.1"
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
+
+# 1. FIXES FOR RUBY 4.0 (Standard library gems now required as external)
+gem "csv"
+gem "base64"
+gem "logger"
+gem "bigdecimal"
+gem "mutex_m"
+gem "erb"
+gem "webrick"
+
+# 2. CORE ENGINE (Forced versions to fix the 'tainted?' NoMethodError)
+# We use Jekyll 3.10 and Liquid 4.0.4 specifically for Ruby 4.0 compatibility
+gem "jekyll", "3.10.0"
+gem "liquid", "4.0.4"
+gem "kramdown", "~> 2.4"
+gem "kramdown-parser-gfm"
+
+# 3. MINIMAL MISTAKES & GITHUB PARITY
+# Instead of the 'github-pages' gem, we load the specific plugins usually included
+gem "jekyll-remote-theme"
+gem "jekyll-include-cache"
+gem "jekyll-seo-tag"
+gem "jekyll-feed", "~> 0.12"
+gem "jekyll-sitemap"
+gem "jekyll-paginate"
+gem "jekyll-gist"
+
+# 4. THEME
 gem "minima", "~> 2.5"
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-include-cache", group: :jekyll_plugins
 
-
-# If you have any plugins, put them here!
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-end
-
-# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
-# and associated library.
-platforms :mingw, :x64_mingw, :mswin, :jruby do
+# 5. PLATFORM SUPPORT
+platforms :windows, :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"
+  gem "wdm", "~> 0.1"
 end
 
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
-
-# Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
-# do not have a Java counterpart.
-gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
-gem "logger"
-gem "jekyll-seo-tag"
+gem "http_parser.rb", "~> 0.8.0"

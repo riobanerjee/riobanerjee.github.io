@@ -10,9 +10,9 @@ author_profile: false
   
   <div class="profile-content">
     <h1>Agnibha Banerjee</h1>
-    <p class="subtitle">Astrophysicist | Data Scientist</p>
+    <p class="subtitle">Data Scientist</p>
     <p class="description">
-      I'm an astrophysicist and data scientist exploring exoplanet atmospheres at The Open University. Passionate about applying machine learning to solve real-world problems.
+      I’m a data scientist working with smart data to better understand and improve the health and sustainability of places.
     </p>
     <div class="profile-buttons">
       <a href="/projects/" class="btn btn--primary">Projects</a>
